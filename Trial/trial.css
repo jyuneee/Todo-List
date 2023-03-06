@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#login-form{
+    position: absolute;
+    text-align: right;
+    top: 40%;
+    left: 18%;
+}
+#blackImg{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.781);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 0;
+    font-size: 0px;
+}
+#loginName{
+    border: none;
+    background-color: rgba(240, 248, 255, 0);
+    font-family: "SEBANG_Gothic_Bold";
+    font-size: 3rem;
+    text-align: right;
+    color: rgb(236, 250, 240);
+}
+#loginSubmit{
+    border: none;
+    color: rgba(84, 95, 145, 0.932);
+    background-color: rgba(240, 248, 255, 0);
+    font: solid;
+    font-family: "SEBANG_Gothic_Bold";
+    font-size: 3rem;
+}
+.backgroundImg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -50;
+    width: 100%;
+    height: 100%;
+}
+
+.hidden{
+    display: none;
+}
+
+#greeting{
+    width: 99.2%;
+    color: rgba(92, 112, 202, 0.884);
+    font-family: "SEBANG_Gothic_Bold";
+    font-size: 3.5rem;
+    position: absolute;
+    text-align: center;
+    margin-top: 65px;
+    z-index: -30;
+}
+
+ #time{
+    width: 99.2%;
+    color: rgba(236, 242, 255, 0.911);
+    font-family: "SEBANG_Gothic_Bold";
+    font-size: 1.2rem;
+    position: absolute;
+    text-align: center;
+    margin-top: 140px;
+    z-index: -30;
+ }
+ 
+ #weather{
+    width: 99%;
+    color: rgba(240, 240, 240, 0.897);
+    font-family: "SEBANG_Gothic_Bold";
+    font-size: 1.2rem;
+    position: absolute;
+    text-align: right;
+    margin-top: 0;
+    z-index: -30;
+ }
+
+ #todo-form{
+    position: absolute;
+    text-align: right;
+    top: 32%;
+    left: 18%;
+ }
+
+ #todo{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0);
+    font-family: "SEBANG_Gothic_Bold";
+    font-size: 1.3rem;
+    color: rgb(236, 250, 240);
+    text-align: center;
+    width: 850px;
+    height: 40px;
+ }
+
+ #todo-list{
+    list-style: none;
+ }
+
+ li{
+    float: left;
+    margin-right: 20px;
+ }
+
+ .todos{
+    position: relative;
+    margin-top: 260px;
+    left: 16%;
+    font-family: "SEBANG_Gothic_Bold";
+    font-size: 1.5rem;
+ }
+
+.text {
+    color: rgb(243, 243, 243);
+}
+
+ .button{
+    border: none;
+    font-family: "SEBANG_Gothic_Bold";
+    font-size: 1.5rem;
+    background-color: rgba(240, 248, 255, 0);
+    color: brown;
+ }
+
+ #littleblack{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.781);
+    width: 960px;
+    height: 350px;
+    top: 30%;
+    left: 14.2%;
+    margin-top: 0;
+    font-size: 0px;
+}
