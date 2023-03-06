@@ -1,2 +1,2 @@
 # Todo-List
-Clone codint Todo List
+Clone coding Todo List
